@@ -1,7 +1,9 @@
 import React from 'react';
 
 const ThemeContext = React.createContext('白天');
+ThemeContext.displayName = 'ThemeContext';
 const FontContext = React.createContext('宋体');
+FontContext.displayName = 'FontContext'
 
 function Context() {
   return (
